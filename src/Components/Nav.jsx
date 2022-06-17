@@ -1,3 +1,12 @@
 export default function Nav() {
-  return ("🌼");
+  return (
+    <nav>
+      <ul className="navbar">
+        <li>Home 🏠</li>
+        <li>About</li>
+        <li>Projects 📚</li>
+        <li>Contact Me 📱</li>
+      </ul>
+    </nav>
+  );
 }
