@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import "../Styles/Header.scss";
+
 const intro = "front-end developer.";
 
 export default function Header() {
@@ -14,8 +16,8 @@ export default function Header() {
   }, [title])
 
   return (
-    <h1>Hi 👋🏻 I'm Vivian!
-      <span> I'm a {title}</span>
+    <h1>Hi 👋🏻 I'm Vivian! I'm a
+      <span className="intro_title"> {title}</span>
     </h1>
   );
 }
