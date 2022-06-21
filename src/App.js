@@ -1,5 +1,6 @@
 import Nav from "./Components/Nav";
 import Header from "./Components/Header";
+import About from "./Components/About";
 
 import './App.css';
 
@@ -9,6 +10,9 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
+      <main>
+        <About />
+      </main>
     </div>
   );
 }

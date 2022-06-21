@@ -20,6 +20,9 @@ export default function Header() {
       <h1>Hi 👋🏻 I'm Vivian! I'm a
       <span className="intro_title"> {title}</span>
       </h1>
+      <summary className="header_description">
+        "I'm a web developer based in Toronto, Canada. I enjoy creating digital experiences that are minimal and easy to use."
+      </summary>
     </header>
   );
 }
