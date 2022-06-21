@@ -16,8 +16,10 @@ export default function Header() {
   }, [title])
 
   return (
-    <h1>Hi 👋🏻 I'm Vivian! I'm a
+    <header>
+      <h1>Hi 👋🏻 I'm Vivian! I'm a
       <span className="intro_title"> {title}</span>
-    </h1>
+      </h1>
+    </header>
   );
 }
