@@ -5,6 +5,9 @@ import csslogo from "../assets/icons/css.svg";
 import bootstrap from "../assets/icons/bootstrap.svg";
 import js from "../assets/icons/js.svg";
 import node from "../assets/icons/nodejs.svg";
+import sass from "../assets/icons/sass.svg";
+import mui from "../assets/icons/mui.svg";
+import psql from "../assets/icons/psql.svg";
 
 import "../Styles/Skills.scss";
 
@@ -40,6 +43,18 @@ export default function Skills() {
         <li>
           <img src={reactlogo} alt="react-logo" width={75} />
           React
+        </li>
+        <li>
+          <img src={sass} alt="sass-logo" width={75} />
+          Sass
+        </li>
+        <li>
+          <img src={mui} alt="mui-logo" width={75} />
+          MUI
+        </li>
+        <li>
+          <img src={psql} alt="psql-logo" width={75} />
+          PostgreSQL
         </li>
       </ul>
 
