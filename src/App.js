@@ -4,7 +4,7 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 
 
-import './App.css';
+import './App.scss';
 
 
 function App() {
