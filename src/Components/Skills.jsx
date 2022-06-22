@@ -8,6 +8,7 @@ import node from "../assets/icons/nodejs.svg";
 import sass from "../assets/icons/sass.svg";
 import mui from "../assets/icons/mui.svg";
 import psql from "../assets/icons/psql.svg";
+import netlify from "../assets/icons/netlify.svg";
 
 import "../Styles/Skills.scss";
 
@@ -55,6 +56,10 @@ export default function Skills() {
         <li>
           <img src={psql} alt="psql-logo" width={75} />
           PostgreSQL
+        </li>
+        <li>
+          <img src={netlify} alt="netlify-logo" width={75} />
+          Netlify
         </li>
       </ul>
 

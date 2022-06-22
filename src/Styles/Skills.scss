@@ -6,8 +6,10 @@ $nanum: "Nanum Pen Script", "cursive";
 $gaegu: "Gaegu", "cursive";
 
 .skills {
+  // border: solid 1px black;
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
   list-style: none;
   font-family: $gaegu;
 }
@@ -15,5 +17,6 @@ $gaegu: "Gaegu", "cursive";
 .skills li {
   display: flex;
   flex-direction: column;
+  padding: 0 7px 10px;
   text-align: center;
 }
